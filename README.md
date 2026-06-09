@@ -1,0 +1,2 @@
+# autoscanner-hub
+Stock scanner
