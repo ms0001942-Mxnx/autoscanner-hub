@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: autoscanner-hub
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn scanner_hub:app --workers 4 --timeout 120
+    plan: free
