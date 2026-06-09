@@ -1,5 +1,5 @@
 """
-AutoScanner Pro — Hub v3  (scanner_hub.py)
+AutoScanner Pro — Hub v3  (scanner_hub)
 ------------------------------------------
 ARCHITECTURE CHANGE: Hub now calculates ALL technicals server-side.
 Browser receives ready-to-render data — zero Yahoo calls from browser.
